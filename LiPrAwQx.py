@@ -1,9 +1,13 @@
-from colorama import Fore, Back, Style
-#TODO: Watch tutorial about text color and hacks
-#todo make a colorful text to send a feedback
-#TODO: Watch tutorial about how to make a portfolio in GitHub
-#TODO: Watch tutorial about: All need to know (BASICS) about GitHub for software engineer 
-print("\n'Actually Price'\n") 
+BLACK   = '\033[30m'
+RED     = '\033[31m'
+GREEN   = '\033[32m'
+YELLOW  = '\033[33m'
+BLUE    = '\033[34m'
+MAGENTA = '\033[35m'
+CYAN    = '\033[36m'
+WHITE   = '\033[37m'
+RESET   = '\033[39m'
+print("\nActually Price\n")
 print("Please type 'yes' to continue and 'no' to cancel")
 Prep = input("Do you want to use it? ")
 if Prep == "Yes" or Prep == "yes" or Prep == "YES" or Prep == "Y" or Prep == "y":
