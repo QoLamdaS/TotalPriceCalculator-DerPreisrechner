@@ -1,8 +1,3 @@
-from colorama import Fore, Back, Style
-#TODO: Watch tutorial about text color and hacks
-#todo make a colorful text to send a feedback
-#TODO: Watch tutorial about how to make a portfolio in GitHub
-#TODO: Watch tutorial about: All need to know (BASICS) about GitHub for software engineer 
 print("\n'Actually Price'\n") 
 print("Please type 'yes' to continue and 'no' to cancel")
 Prep = input("Do you want to use it? ")
