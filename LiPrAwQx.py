@@ -69,14 +69,9 @@ if Prep == "Yes" or Prep == "yes" or Prep == "YES" or Prep == "Y" or Prep == "y"
         print("\nInvalid input, Please try again!\n")
         exit()
 elif Prep == "No" or Prep == "no" or Prep == "NO" or Prep == "N" or Prep == "n":
-    print("\nOkie Dokie!\n")
-    print("Please give me some feedback to improve my programming skill! \n")
+    print(f"\n{MAGENTA}Okie Dokie!{RESET}\n")
+    print(f"{CYAN}Please give me some feedback to improve my programming skill!{RESET}\n")
     quit()
 else:
-    print("\nInvalid input, Please try again!\n")
+    print(f"\n{RED}Invalid input{RESET}, {YELLOW}Please try again!{RESET}\n")
     quit()
-
-#* NOTES:
-#* Start : 4/30/2024
-#* End : 5/3/2024
-#* Last Update : 5/3/2024
