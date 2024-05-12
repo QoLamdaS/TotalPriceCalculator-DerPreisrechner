@@ -1,6 +1,3 @@
-
-#? Test, test, TEST
-
 BLACK   = '\033[30m'
 RED     = '\033[31m'
 GREEN   = '\033[32m'
@@ -21,22 +18,16 @@ if Prep == "Yes" or Prep == "yes" or Prep == "YES" or Prep == "Y" or Prep == "y"
     print()
     TaxPerItem = float(input("How many percentage should you pay the tax for each item? "))
     
-    TotalTaxes1 = TaxPerItem / 100 #! Discount Percentage Calculation Formula
-    TotalTaxes2 = TotalTaxes1 * PricePerItem #* Priority for normal price with Tax
-    PricePerItemWithTax = PricePerItem + TotalTaxes2
-    FinalPrice1 = PricePerItemWithTax * TotalItems
+    TotalTaxes = (TaxPerItem / 100) * PricePerItem #! Tax Percentage Calculation Formula
+    FinalPrice1 = (PricePerItem + TotalTaxes) * TotalItems
     
     print("\nPlease type 'yes' to continue and 'no' to cancel")
     Discount = input("Is your item have a discount? ")
     if Discount == "Yes" or Discount == "yes" or Discount == "YES" or Discount == "y" or Discount == "Y":
         DiscountPerItem = float(input("What percentage discount for each item? "))
         print("\nOk! No Problem! \n")
-        
-        TotalDiscount1 = DiscountPerItem / 100 #! Discount Percentage Calculation Formula
-        TotalDiscount2 = TotalDiscount1 * PricePerItem
-        TotalDiscount3 = TotalDiscount2 * TotalItems
-        FinalPrice2 = FinalPrice1 - TotalDiscount3
-        
+        TotalDiscount = (DiscountPerItem / 100) * PricePerItem * TotalItems #! Discount Percentage Calculation Formula
+        FinalPrice2 = FinalPrice1 - TotalDiscount
         print("Please type 'yes' to continue and 'no' to cancel")
         Tip = input("Do you want to give a tip? ")
         if Tip == "Yes" or Tip == "yes" or Tip == "YES" or Tip == "y" or Tip == "Y":
