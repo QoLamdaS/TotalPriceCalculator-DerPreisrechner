@@ -1,6 +1,3 @@
-
-#TODOs : Rename all python porjects, files, GitHub REPO to more 'MASUK AKAL dan MUDAH DIINGAT'
-
 BLACK   = '\033[30m'
 RED     = '\033[31m'
 GREEN   = '\033[32m'
@@ -12,9 +9,9 @@ WHITE   = '\033[37m'
 RESET   = '\033[39m'
 print(f"\n{CYAN}Actually {BLUE}Price {RESET}\n")
 print(f"Please type {GREEN}'yes' {RESET}to continue and {RED}'no' {RESET}to cancel")
-Prep = input("Do you want to use it? ")
+Prep = input(f"{YELLOW}Do you want to use it?{RESET} ")
 if Prep == "Yes" or Prep == "yes" or Prep == "YES" or Prep == "Y" or Prep == "y":
-    print("\nOkay, I got this!\n")
+    print(f"\n{BLUE}Okay{RESET}, I got this!\n")
     TotalItems = int(input("How many items did you buy? "))
     print()
     PricePerItem = float(input("How much money did you spend for each item? "))
