@@ -32,9 +32,11 @@ if Prep == "Yes" or Prep == "yes" or Prep == "YES" or Prep == "Y" or Prep == "y"
             TotalTip = float(input(f"{YELLOW}How much money would you like to give a tip?{RESET} "))
             FinalPrice3a = FinalPrice2 + TotalTip #! TIP-Alt: 1 /// Calculation Formula
             print(f"\n1) {RED}{FinalPrice1}{RESET} Here is the price only with the tax! \n2) {CYAN}{FinalPrice2}{RESET} Here is the price with the tax and got discounted! \n3) {BLUE}{FinalPrice3a}{RESET} Here is your final price that has added with tax and tip and also reduced by discount!")
+            print(f"{BLUE}Please give me some feedback to improve my programming skill =)!{RESET}\n")
         elif Tip == "No" or Tip == "no" or Tip == "NO" or Tip == "n" or Tip == "N":
             print(f"\n{CYAN}Okay for that!{RESET}\n")
             print(f"1) {RED}{FinalPrice1}{RESET} Here is the price only with the tax! \n2) {CYAN}{FinalPrice2}{RESET} Here is your final price with the tax and reduced by discount!\n")
+            print(f"{BLUE}Please give me some feedback to improve my programming skill =)!{RESET}\n")
         else:
             print(f"{RED}Not VALID Input, Please try again!{RESET}\n")
             exit()
@@ -50,6 +52,7 @@ if Prep == "Yes" or Prep == "yes" or Prep == "YES" or Prep == "Y" or Prep == "y"
         elif Tip == "No" or Tip == "no" or Tip == "NO" or Tip == "n" or Tip == "N":
             print(f"\n{CYAN}Okay for that!{RESET}\n")
             print(f"{RED}{FinalPrice1}{RESET} Here is your final price only with the tax!\n")
+            print(f"{BLUE}Please give me some feedback to improve my programming skill =)!{RESET}\n")
         else:
             print(f"\n{RED}NOT Valid input, Please try again!{RESET}\n")
             exit()
