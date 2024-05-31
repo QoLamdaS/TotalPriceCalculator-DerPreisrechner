@@ -1,6 +1,3 @@
-
-#TODOs : Rename all python porjects, files, GitHub REPO to more 'MASUK AKAL dan MUDAH DIINGAT'
-
 BLACK   = '\033[30m'
 RED     = '\033[31m'
 GREEN   = '\033[32m'
