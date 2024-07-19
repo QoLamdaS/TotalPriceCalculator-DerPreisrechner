@@ -7,7 +7,6 @@ MAGENTA = '\033[35m'
 CYAN    = '\033[36m'
 WHITE   = '\033[37m'
 RESET   = '\033[39m'
-print("Testing")
 print(f"\n{CYAN}Actually {BLUE}Price {RESET}\n")
 print(f"Please type {GREEN}'yes' {RESET}to continue and {RED}'no' {RESET}to cancel")
 Prep = input(f"{YELLOW}Do you want to use it?{RESET} ")
