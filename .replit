@@ -1,8 +1,12 @@
+#* Important Notes for Title :
+#! Do not add UNUSUAL characters on the title such as: (), [], {}, white-space characters, Etc.
+#* Configure Repl or open .replit file >>> Add run command >>> type it: python3 {TITLE.py} >>> Click Save.
+
 modules = ["python-3.12"]
-run = "python3 PriceCalculator.py"
+run = "python3 PriceCalculator.py" #run = "python3 {TITLE.py}"
 
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "python3 PriceCalculator.py"]
+run = ["sh", "-c", "python3 PriceCalculator.py"] #run = ["sh", "-c", "python3 {TITLE.py}"]
